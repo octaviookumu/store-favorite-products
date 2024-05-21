@@ -1,0 +1,7 @@
+<ng-container *ngIf="favoriteProducts$ | async as favoriteProducts">
+    <div class="centered-box">
+        <pre>
+            {{ favoriteProducts | json }}
+          </pre>
+    </div>
+</ng-container>

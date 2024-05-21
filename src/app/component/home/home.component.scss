@@ -1,0 +1,10 @@
+.centered-box {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
